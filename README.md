@@ -15,3 +15,8 @@ the appropriate terminal command can be found below:
 node mixed_messages.js
 
 ```
+
+### future goals:
+
+expand the project using html and css as well. \
+add different types of messages to choose from.
