@@ -15,7 +15,7 @@
 
   /* Basic outline */
 html {
-
+  background-color: #F0CE75;
 }
 
 h1 {
@@ -27,11 +27,39 @@ h1 {
 
 p {
   font-family: "Nunito", sans-serif;
-  
 }
 
 /* styling for the button */
+.button {
+  color: white;
+  background-color: #28333E;
+  width: 200px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 0px;
+  border-radius: 7px;
+}
+
+.button:hover {
+  color: white;
+  cursor: pointer;
+  
+}
+
 #message-button {
   text-align: center;
-  border: 1px solid black;
+  width: 200px;
+  height: 40px;
+  padding: 15px 0 0px 0;
+  margin: 0;
+}
+
+
+
+/* styling the message */
+#message {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: block;
 }
