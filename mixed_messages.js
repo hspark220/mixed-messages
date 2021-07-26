@@ -20,7 +20,7 @@ const messageGenerator = (messageDataBase) => {
             const sport = this._sports[Math.floor(Math.random() * this._sports.length)];
             const movie = this._movies[Math.floor(Math.random() * this._movies.length)];
             //creating the message
-            const message = `you should eat ${food}.\nyou should ${sport}\nyou should go watch ${movie}.`;
+            const message = `you should eat ${food}.\nyou should ${sport}.\nyou should go watch ${movie}.`;
             return message; //returning the message
         }
     }
@@ -32,7 +32,8 @@ let button = document.getElementById('message-button');
 let message = document.getElementById('message');
 
 const showMessage = () => {
-    message.innerHTML = messageGenerator([foods, sports, movies]);
+    const msg = messageGenerator([foods, sports, movies]);
+    message.innerHTML = msg.generateMessage();
     button.innerHTML = 'more suggestions';
 }
 

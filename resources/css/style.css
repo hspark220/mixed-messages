@@ -1,0 +1,37 @@
+/* Fonts */
+@font-face {
+    font-family: "Libre Baskerville";
+    src: url("../fonts/libre-baskerville/LibreBaskerville-Regular.ttf"),
+      url("../fonts/libre-baskerville/LibreBaskerville-Bold.ttf"),
+      url("../fonts/libre-baskerville/LibreBaskerville-Italic.ttf");
+  }
+  
+  @font-face {
+    font-family: "Nunito";
+    src: url("../fonts/nunito/Nunito-Regular.ttf"),
+      url("../fonts/nunito/Nunito-Bold.ttf"),
+      url("../fonts/nunito/Nunito-Italic.ttf");
+  }
+
+  /* Basic outline */
+html {
+
+}
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 36px;
+  text-align: center;
+
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  
+}
+
+/* styling for the button */
+#message-button {
+  text-align: center;
+  border: 1px solid black;
+}
