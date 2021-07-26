@@ -4,19 +4,13 @@ this project is one of the projects from codecademy that generates random messag
 
 ## technologies
 
-project is created using JavaScript and Git.
+JavaScript, HTML, CSS, and Git
 
 ## running the project
 
-after downloading the project, you can run it using the terminal. \
-the appropriate terminal command can be found below:
-
-```console
-node mixed_messages.js
-
-```
+after downloading the project, you can run it by opening the html file ('index.html') in a
+web browser.
 
 ### future goals:
 
-expand the project using html and css as well. \
-add different types of messages to choose from.
+make better styling and add more message suggestions.
