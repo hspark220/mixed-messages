@@ -8,8 +8,7 @@ JavaScript, HTML, CSS, and Git
 
 ## running the project
 
-after downloading the project, you can run it by opening the html file ('index.html') in a
-web browser.
+you can open the website by visiting 'https://hspark220.github.io/mixed-messages/'
 
 ### future goals:
 
