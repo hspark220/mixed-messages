@@ -2,7 +2,7 @@
 
 //three different data bases (food, sports, and movies)
 //using these data bases to suggest the days activities
-const foods = ['fried rice', 'french fries', 'sushi', 'fried chicken'];
+const foods = ['fried rice', 'french fries', 'sushi', 'fried chicken', 'pad thai'];
 const sports = ['play tennis', 'go jogging', 'play soccer', 'play volleyball']; //middel of the message
 const movies = ['Avengers: End Game', 'Hospital Playlist', 'No Game No Life', 'Iron Man 3']; //end of the message
 
